@@ -1,0 +1,5 @@
+import numpy as np
+
+start = time.time()
+list = np.random.permutation(np.arange(1, 100000001))
+print(time.time() -start)
